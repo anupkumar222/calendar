@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    AppBar, Toolbar, Typography, IconButton, InputBase, Box, Avatar, Menu, MenuItem, Badge
+    AppBar, Toolbar, Typography, IconButton, InputBase, Box, Avatar
 } from '@mui/material';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import './App.css';
