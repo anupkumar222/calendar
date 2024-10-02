@@ -1,0 +1,84 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.side-nav {
+  width: 250px;
+  background-color: #563d7c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.appointment-table {
+  margin-top: 20px;
+}
+
+.time-slot {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.time-slot:hover {
+  background-color: #eee;
+}
+
+.drawer-content {
+  width: 300px;
+  padding: 20px;
+}
+
+.drawer-content h3 {
+  margin-bottom: 20px;
+}
+
+.drawer-content button {
+  width: 100%;
+}
+
+.side-nav .MuiListItem-root {
+  cursor: pointer; /* Change cursor to pointer for all list items */
+}
+
+.side-nav .MuiListItem-root:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Optional: Add a hover background effect */
+}
+
+/* Styling for the lines */
+.lines-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px; /* Adjust height to fit the design */
+}
+
+.line {
+  width: 80%; /* Adjust width as needed */
+  border-bottom: 1px solid #ccc; /* Line style */
+  margin: 2px auto; /* Center lines */
+}
+
+/* Adjust the width of the time-slot cell */
+.time-slot {
+  width: 350px; /* Adjust to your desired width */
+  cursor: pointer; /* Show pointer on hover */
+}
+
